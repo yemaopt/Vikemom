@@ -1,3 +1,7 @@
+% For ptychographic recovery, adapted from the following references with additional OTF recovery implemented.
+% Siyuan Dong, Pariksheet Nanda, Radhika Shiradkar, Kaikai Guo, and Guoan Zheng,
+% "High-resolution fluorescence imaging via pattern-illuminated Fourier ptychography," Opt. Express 22, 20856-20870 (2014)
+
 clear
 clc
 
