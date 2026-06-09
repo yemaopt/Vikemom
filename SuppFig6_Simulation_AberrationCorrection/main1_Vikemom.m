@@ -39,14 +39,10 @@ ctfexc=ones(pixelNum,pixelNum).*(((kyy-(pixelNum+1)/2)/cutoff).^2+((kxx-(pixelNu
 % ctfexc=ctfexc.*exp(1i.*k.*W.*rou.^2);
 %
 % Mixed
-% W1=0.2*wavelength;
-% W2=0.2*wavelength;
-% W3=0.1*wavelength;
-% ctfexc=ctfexc.*exp(1i.*k.*W1.*rou.^4).*exp(1i.*k.*W2.*rou.^2.*costheta.^2).*exp(1i.*k.*W3.*rou.^2);
-
-% field curvature
-W=0.5*wavelength;
-ctfexc=ctfexc.*exp(1i.*k.*W.*rou.^2);
+W1=0.2*wavelength;
+W2=0.2*wavelength;
+W3=0.1*wavelength;
+ctfexc=ctfexc.*exp(1i.*k.*W1.*rou.^4).*exp(1i.*k.*W2.*rou.^2.*costheta.^2).*exp(1i.*k.*W3.*rou.^2);
 
 ctfexcSignificantPix=numel(find(abs(ctfexc)>eps(class(ctfexc))));
 ifftscaleexc=numel(ctfexc)/ctfexcSignificantPix;
