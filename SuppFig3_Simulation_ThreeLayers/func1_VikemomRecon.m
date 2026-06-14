@@ -1,6 +1,9 @@
 % For ptychographic recovery, adapted from the following references with additional OTF recovery implemented (Ye Ma).
 % Siyuan Dong, Pariksheet Nanda, Radhika Shiradkar, Kaikai Guo, and Guoan Zheng,
 % "High-resolution fluorescence imaging via pattern-illuminated Fourier ptychography," Opt. Express 22, 20856-20870 (2014)
+% Written by Ye Ma, 
+% Department of Optical Engineering, Zhejiang University
+% Department of Biomedical Engineering, Johns Hopkins University
 
 function [Iobj, OTFexc] = func1_VikemomRecon(im)
 
