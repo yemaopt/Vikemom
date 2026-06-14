@@ -1,3 +1,7 @@
+% Written by Ye Ma, 
+% Department of Optical Engineering, Zhejiang University
+% Department of Biomedical Engineering, Johns Hopkins University
+
 function B=rowmove(A,x)
 [m,n]=size(A);
 if x>0
