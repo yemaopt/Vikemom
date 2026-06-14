@@ -1,3 +1,7 @@
+% Written by Ye Ma, 
+% Department of Optical Engineering, Zhejiang University
+% Department of Biomedical Engineering, Johns Hopkins University
+
 function [IReconSIM] = func2_SIMRecon(im)
 
 na=1.4;
